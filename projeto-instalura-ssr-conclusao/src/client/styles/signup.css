@@ -1,0 +1,41 @@
+:global .signup-box {
+	position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 1em;
+}
+
+:global .signup-box form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 260px;
+}
+
+:global .signup-box input[type='submit'] {
+    background: #3897f0;
+    border-color: #3897f0;
+    color: white;    
+}
+
+:global .signup-box input {
+    display: block;
+    border-radius: 5px;
+    margin: 0.2em auto;
+    margin-bottom: .8em;
+    border: 1px solid #d9d9d9;
+}
+
+:global .signup-box label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+:global .signup-box ul {
+    list-style-type: none;
+    color: #f11;
+    font-weight: bold;
+    padding-inline-start: 0px;
+}

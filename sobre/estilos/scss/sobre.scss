@@ -222,6 +222,9 @@ footer {
 
 	.img_equipe {
 		width: 100%;
+		object-fit: none;
+	    height: 100px;
+	    object-position: 51% 48%;
 	}
 
 	.novidades {

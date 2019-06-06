@@ -161,7 +161,10 @@ footer {
     flex-direction: column; }
 
   .img_equipe {
-    width: 100%; }
+    width: 100%;
+    object-fit: none;
+    height: 100px;
+    object-position: 51% 48%; }
 
   .novidades {
     flex-direction: column;

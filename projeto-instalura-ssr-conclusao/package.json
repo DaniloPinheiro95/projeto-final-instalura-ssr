@@ -43,11 +43,11 @@
     "electrode-static-paths": "^1.0.0",
     "immutable": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.10.1",
+    "lodash": "^4.17.23",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "electrode-archetype-react-app-dev": "^1.5.0",
-    "gulp": "^3.9.1"
+    "electrode-archetype-react-app-dev": "^7.0.7",
+    "gulp": "^5.0.1"
   }
 }
